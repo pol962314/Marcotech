@@ -1,0 +1,16 @@
+.parallax{
+    background: url('../img/bg.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 120px;
+}
+
+.opacity{
+    opacity: 0.6;
+}
+
+@media(min-width:576px){
+    .opacity{
+        height: 250px;        
+    }
+}
