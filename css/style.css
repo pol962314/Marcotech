@@ -9,8 +9,38 @@
     opacity: 0.6;
 }
 
+
+
+#main-banner{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background:#ffc107ad;
+    max-width: 100%;
+}
+
+#main-logo{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.card{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 @media(min-width:576px){
     .opacity{
         height: 250px;        
+    }
+
+    #main-logo{
+        padding-bottom: 5px;
+        padding-top: 5px;
+        width: 230px;
+        height: 120px;
     }
 }
